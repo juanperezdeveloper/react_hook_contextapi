@@ -1,4 +1,4 @@
-import React, { createContext, useReducer, createContext } from 'react'
+import React, { createContext, useReducer } from 'react'
 import AppReducer from './AppReducer'
 
 const initialState = {
@@ -13,7 +13,7 @@ export const GlobalProvider = ({ children }) => {
 
   function removeEmployee(id) {
     dispatch({
-      type: 'REMOVE_EMPLOYRR',
+      type: 'REMOVE_EMPLOYEE',
       payload: id
     })
   }

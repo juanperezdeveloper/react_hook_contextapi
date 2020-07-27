@@ -4,7 +4,6 @@ import './stylesheet/styles.css'
 import { Home } from './components/Home'
 import { AddEmployee } from './components/AddEmployee'
 import { EditEmployee } from './components/EditEmployee'
-
 import { GlobalProvider } from './context/GlobalState'
 
 function App() {
